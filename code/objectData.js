@@ -8,10 +8,10 @@ var reception = new Npc("Bridget", 7, 6, "left");
 reception.text.reg.look = "Bridget, we never intended for her to be a stereotype.";
 reception.dlog[0] = {	text: "BRIDGET: 'What do you want?'",
                          options:	[	{	reply: "<1> 'How's your day?'", next: 1},
-                                     { reply: "<2> 'You, in the back seat of my Corolla.'", next: 2}]};
+                                     { reply: "<2> 'Your number ;)'", next: 2}]};
 reception.dlog[1] = {	text: "BRIDGET: 'Whatever.'", next: 0};
 reception.dlog[2] = {	text: "BRIDGET: 'In your dreams, creep.'",
-                         options:	[	{	reply: "<1> 'Feelsbadman.'", next: 1},
+                         options:	[	{	reply: "<1> 'Feelsbadman :('", next: 1},
                                      { reply: "<2> 'Been there, done that.'", next: 3}]};
 reception.dlog[3] = {text: "BRIDGET: 'Like, eww.'", next: 0};
 reception.dlog[4] = {text: "BRIDGET: 'Ugh, every year Bruce makes me order the chopped liver and every year he's the only one who eats it.'", next: 5};
@@ -70,7 +70,7 @@ waifu.dlog[0] = {
     options: [ {
         reply: "<1> 'Wasn't the traffic awful this morning?'", next: 1
     }, {
-        reply: "<2> 'The one-eyed trouser snake.'", next: 2
+        reply: "<2> 'привет, товарищ!'", next: 2
     } ]
 };
 waifu.dlog[1] = {
@@ -78,7 +78,7 @@ waifu.dlog[1] = {
     options: [ {
         reply: "<1> 'Marry me...'", next: 3
     }, {
-        reply: "<2> 'My B.'", next: 3
+        reply: "<2> 'My bad.'", next: 3
     } ]
 };
 waifu.dlog[2] = {
@@ -86,7 +86,7 @@ waifu.dlog[2] = {
     options: [ {
         reply: "<1> 'What's an NPC?'", next: 3
     }, {
-        reply: "<2> 'My B.'", next: 3
+        reply: "<2> 'My bad.'", next: 3
     } ]
 };
 waifu.dlog[3] = {text: "EMILY: (*＾▽＾)／", next: 0, flag: {id: "talkWaifu", used: false}};
@@ -128,11 +128,11 @@ waifu.dlog[10] = {text: "EMILY: (*＾▽＾)／", next: 4, flag: {id: "talkWaifu
 
 var techie = new Npc("Boris", 4, 12, "down");
 techie.text.reg.use = "Are you out of your mind?";
-techie.text.reg.look = "Boris is in charge of IT around here, but he spends most of his time at his desk yelling 'sookah bullyat'. Frankly he scares me.";
+techie.text.reg.look = "Boris is in charge of IT around here. Frankly he scares me.";
 techie.dlog[0] = {text: "BORIS: 'Hallo my friend. I am DLC!'", next: 0};
 
 var hrlady = new Npc("Sue", 1, 12, "down");
-hrlady.text.reg.look = "Sue 'Mrs. Robinson' Robinson. Head of human resources. How ironic.";
+hrlady.text.reg.look = "Sue Robinson. Head of human resources.";
 hrlady.dlog[0] = {text: "SUE: 'Hi, I'm a DLC!'", next: 0};
 
 var doggy = new Npc("Doggy", 7, 7, "down");

@@ -92,7 +92,7 @@ function CheckFlags()
             }
         }
     }
-    if (cutScene.driver.checkPoints == 3)
+    if (cutScene.driver.checkPoints == 2)
     {
         cutScene.driver.init();
     }

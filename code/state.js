@@ -5,10 +5,10 @@ function gameMenu(){
     this.buttonsHover;
     this.assetsLoaded = 0;
     this.mouse = {x:0, y:0};
-    this.buttonsData = [{id:"start", img:"assets/sprites/gui/StartN.png", imgHover:"assets/sprites/gui/StartH.png", x:676, y:144, w:184, h:72, over:false, active:true, click: startGame}, // Start button
-                        {id:"options", img:"assets/sprites/gui/OptionN.png", imgHover:"assets/sprites/gui/OptionH.png", x:656, y:288, w:224, h:72, over:false, active:true,  click: Options},
-                        {id:"help", img:"assets/sprites/gui/HelpN.png", imgHover:"assets/sprites/gui/HelpH.png", x:692, y:432, w:152, h:72, over:false, active:true, click: Help}, // Help button
-                        {id:"exit", img:"assets/sprites/gui/ExitN.png", imgHover:"assets/sprites/gui/ExitH.png", x:692, y:576, w:152, h:72, over:false, active:true, click: Exit}]
+    this.buttonsData = [{id:"start", img:"assets/sprites/gui/StartN.png", imgHover:"assets/sprites/gui/StartH.png", x:620, y:144, w:184, h:72, over:false, active:true, click: startGame}, // Start button
+                        {id:"options", img:"assets/sprites/gui/OptionN.png", imgHover:"assets/sprites/gui/OptionH.png", x:580, y:288, w:224, h:72, over:false, active:true,  click: Options},
+                        {id:"help", img:"assets/sprites/gui/HelpN.png", imgHover:"assets/sprites/gui/HelpH.png", x:650, y:432, w:152, h:72, over:false, active:true, click: Help}, // Help button
+                        {id:"exit", img:"assets/sprites/gui/ExitN.png", imgHover:"assets/sprites/gui/ExitH.png", x:650, y:576, w:152, h:72, over:false, active:true, click: Exit}]
 	//temporary fix to buttons position for new resolution
 	for(var i = 0; i < this.buttonsData.length; i++)
 	{

@@ -7,8 +7,8 @@ function debug()
   console.log("!");
 }
 
-var game = {
-    fps: 60,
+const game = {
+    fps: 120,
     tileSize: 32,
     width: 800,
     height: 600,
