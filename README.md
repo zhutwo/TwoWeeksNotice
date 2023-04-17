@@ -1,22 +1,3 @@
-Current Version:
-<br><br>
-Cutscenes are working
+A student project that I'm keeping around for posterity. It's very "student" work but I like to think it demonstrated some talent and went above and beyond for a first project.
 <br>
-Text wraps
-<br>
-AI runs around like a good doggie
-<br>
-Help and Options are "done"
-<br>
-Range detection added for interactions
-<br><br>
-Known Bugs:
-<br>
-Game crashes if you click start after pausing
-<br>
-Occaisional double-clicks from way input is handled
-
-<br><br>
-Changes since Alpha:
-<br><br>
-Much.
+This was a group project, I was responsible for the quest system, dialogue system, cutscene system, object interaction, levels, and an improvised level editor made from excel.
